@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawsome-free-5.13.0-web/css/all.css">
+    <link rel='stylesheet' type='text/css' href='css/home.css'>
+</head>
+<body>
+    <header>
+        <div class="container-fruid">
+            <nav class="navbar">
+                <a href="#" class="navbar-brand mr-5">Movies</a>
+                <div class="form-group nav-form mr-auto">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control" placeholder="Tìm kiếm..."> 
+                </div> 
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Thể loại</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Quốc gia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Top IDM</a>
+                    </li>
+                    <li class="nav-item bell">
+                        <a href="#" class="nav-link" >
+                            <i class="fa fa-bell"><span>5</span></i></a>
+                            Hey, Filipe
+                            <i class="fa fa-chevron-down"></i>
+                    </li>
+                    
+                    <li class="nav-item user">
+                        <a href="#" class="nav-link" >
+                            <i class="fa fa-user"></i>&nbsp;&nbsp;
+                        </a>
+                    </li>
+                    
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid p-0">
+            <div class="background">
+                <div class="background-content">
+                    <div class="text-content">
+                        <h1 class="display-3">Extraction</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet</p>
+                        <span class="text-muted">2020&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;movies&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;16+</span>
+                        <button class="btn">
+                            <i class="fa fa-play"></i>&nbsp;&nbsp;Next
+                        </button>
+                        <button class="btn">
+                            <i class="fa fa-plus"></i>&nbsp;&nbsp;Add
+                        </button>
+                    </div>
+                    <div class="populara">
+                        <h5 class="text-muted"><i class="fa fa-start"></i>Popular most</h5>
+                        <div class="row no-gutters">
+                            <div class="col-xl-2">
+                                <img src="/images/s-2.jpg" width="220" id="img1">
+                            </div>
+                            <div class="col-xl-2">
+                                <img src="/images/s-2.jpg" width="220" id="img1">
+                            </div>
+                            <div class="col-xl-2">
+                                <img src="/images/s-2.jpg" width="220" id="img1">
+                            </div>
+                            <div class="col-xl-2">
+                                <img src="/images/s-2.jpg" width="220" id="img1">
+                            </div>
+                            <div class="col-xl-2">
+                                <img src="/images/s-2.jpg" width="220" id="img1">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function()){
+            $('#img1').click(function){
+                $('.background').css({background: url(s-2) no-repeat})
+            }
+        }
+    </script>
+</body>
+</html>
